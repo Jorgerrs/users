@@ -10,4 +10,41 @@ h1 {
   color: #333;
 }
 
+#listaUsuarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+#listaUsuarios li {
+  width: 400px;
+  margin: 10px;
+}
+
+.Usuario{
+  display: flex;
+  background-color: lightgray;
+  border: 1px solid grey;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.ComnpañiaInfo{
+  background-color: lightgray;
+  border: 1px solid grey;
+}
+
+.ComnpañiaInfo p {
+  margin-left: 10px;
+}
+
+.Usuario, .ComnpañiaInfo p{
+  font-weight: bold;
+}
+
+.Usuario img {
+  width: 100px;
+  height: 100px;
+}
 
